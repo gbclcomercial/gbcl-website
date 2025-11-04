@@ -38,14 +38,14 @@ export default function Home(){
 
         <section id="quienes" className="container" style={{padding:'48px 0',textAlign:'left'}}>
           <h2>Quiénes somos</h2>
-          <p><strong>GBC Auditores</strong> es un equipo de profesionales especializados en la salud empresarial. Con más de 23 años de constitución y más de 40 años de experiencia combinada, ofrecemos servicios integrales en revisoría fiscal, auditoría, contabilidad, costos, impuestos y asesoría financiera y administrativa.</p>
+          <p><strong>GBCL Auditores</strong> es un equipo de profesionales especializados en la salud empresarial. Con más de 23 años de constitución y más de 40 años de experiencia combinada, ofrecemos servicios integrales en revisoría fiscal, auditoría, contabilidad, costos, impuestos y asesoría financiera y administrativa.</p>
           <p>Nuestro trabajo se rige por la confidencialidad, la formación continua y el compromiso con los intereses institucionales de nuestros clientes.</p>
         </section>
 
         <section id="servicios" className="container" style={{padding:'0 0 48px 0'}}>
           <h2>Servicios</h2>
           <div className="services">
-            <div className="card"><h3>Revisoría Fiscal Integral</h3><p>Revisoria Fiscal eficaz, independiente y objetiva, control interno, gestión y cumplimiento normativo.</p></div>
+            <div className="card"><h3>Revisoría Fiscal Integral</h3><p>Estructurada con el ánimo de dar seguridad a los propietarios socios y/o accionistas de empresas, acreedores, trabajadores y al estado sobre el sometimiento de la administración de las empresas a las normas legales y estatutarias.</p></div>
             <div className="card"><h3>Área Tributaria</h3><p>Planeación tributaria, trámites y asesoría en requerimientos de la administración.</p></div>
             <div className="card"><h3>Área de Auditoría</h3><p>Auditorías internas y externas aplicando métodos por ciclos y análisis de riesgos.</p></div>
             <div className="card"><h3>Área de Costos</h3><p>Implementación y dirección de sistemas de costos, informes y controles.</p></div>
@@ -66,7 +66,7 @@ export default function Home(){
 
         <section id="equipo" className="container" style={{padding:'48px 0'}}>
           <h2>Equipo</h2>
-          <p>Dirección: William Néstor Bolívar G. — Gerente General; Blanca Aurora Contreras P. — Gerente Comercial. Profesionalismo y experiencia al servicio de su empresa.</p>
+          <p>Dirección: William Néstor Bolívar G. — Gerente General; Margarita Triana A. — Gerente Comercial. Profesionalismo y experiencia al servicio de su empresa.</p>
         </section>
 
         <section id="certificaciones" className="container" style={{padding:'48px 0'}}>
@@ -82,8 +82,8 @@ export default function Home(){
         <section id="contacto" className="contact-section">
           <div className="container" style={{maxWidth:720}}>
             <h2>Contáctenos</h2>
-            <p>Tel: 4831158 Bogotá / Cel: 313-3487537</p>
-            <p>Email: gbcl.comercial.sas@gmail.com</p>
+            <p> Cel: 313-3487537 - 3112656736</p>
+            <p>Email:gbcl.sas@gmail.com - gbcl.comercial.sas@gmail.com</p>
 
             <form action="REPLACE_FORM_ENDPOINT" method="POST" style={{marginTop:20,textAlign:'left'}}>
               <input className="form-input" name="name" placeholder="Nombre" required />
@@ -101,13 +101,13 @@ export default function Home(){
       <footer>
         <div className="container" style={{display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap'}}>
           <div>
-            <strong>GBC Auditores</strong><br/>
+            <strong>GBCL Auditores</strong><br/>
             Bogotá, Colombia — William Néstor Bolívar G.<br/>
-            © GBC Auditores 2025. Todos los derechos reservados.
+            © GBCL Auditores 2025. Todos los derechos reservados.
           </div>
           <div style={{textAlign:'right'}}>
-            <div>Tel: 4831158 | Cel: 313-3487537</div>
-            <div style={{marginTop:6}}>Email: gbcl.comercial.sas@gmail.com</div>
+            <div> Cel: 313-3487537 - 3112656736</div>
+            <div style={{marginTop:6}}>Email:gbcl.sas@gmail.com -gbcl.comercial.sas@gmail.com</div>
           </div>
         </div>
       </footer>
