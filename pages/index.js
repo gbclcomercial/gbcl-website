@@ -74,14 +74,10 @@ export default function Home(){
           <p>Cumplimos con estándares de calidad profesional y ética. Contáctenos para conocer certificaciones específicas y referencias.</p>
         </section>
 
-        <section id="blog" className="container" style={{padding:'48px 0'}}>
-          <h2>Blog</h2>
-          import BlogSection from '../components/BlogSection';
-
-...
-
-<BlogSection />
-        </section>
+        <section id="blog">
+  <h2>Blog</h2>
+  <p>Próximamente publicaremos artículos...</p>
+</section>
 
         <section id="contacto" className="contact-section">
           <div className="container" style={{maxWidth:720}}>
