@@ -12,6 +12,7 @@ body{
   margin:0;
   color:#1f2937;
   background:white;
+  -webkit-font-smoothing:antialiased;
 }
 a{color:inherit;}
 .container{max-width:1200px;margin:0 auto;padding:0 20px;}
@@ -33,7 +34,9 @@ a{color:inherit;}
 .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;padding:40px 0;}
 .card{background:white;border-radius:10px;padding:20px;box-shadow:0 6px 18px rgba(20,20,40,0.06);}
 .nav{background:var(--blue-900);color:white;padding:14px 0;position:sticky;top:0;z-index:50;}
-.logo{height:48px;}
+.logo{height:56px;}
 .contact-section{background:var(--blue-900);color:white;padding:60px 0;text-align:center;}
-.whatsapp{position:fixed;right:18px;bottom:18px;background:#25D366;color:white;border-radius:999px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,0.2);}
-@media(max-width:768px){ .hero{text-align:center; padding:80px 20px;} .container{padding:0 16px;} }
+.whatsapp{position:fixed;right:18px;bottom:18px;background:#25D366;color:white;border-radius:999px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,0.2);z-index:60;}
+footer{background:#0f2a4d;color:#fff;padding:28px 0;margin-top:40px;}
+.form-input{width:100%;padding:12px;border-radius:8px;border:1px solid #e6e6f0;margin-bottom:12px;}
+@media(max-width:768px){ .hero{text-align:center; padding:80px 20px;} .container{padding:0 16px;} nav{display:none;} }

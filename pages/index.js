@@ -1,8 +1,13 @@
 
-import Image from 'next/image'
+import Head from 'next/head'
 export default function Home(){
   return (
     <>
+      <Head>
+        <title>GBC Auditores - Revisoría Fiscal y Auditoría</title>
+        <meta name="description" content="GBC Auditores - Revisoría Fiscal, auditorías, contabilidad y asesoría financiera en Bogotá, Colombia." />
+      </Head>
+
       <header className="nav">
         <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
           <div style={{display:'flex',alignItems:'center',gap:12}}>
@@ -26,61 +31,86 @@ export default function Home(){
         <section id="inicio" className="hero">
           <div className="container">
             <h1 style={{fontSize:36,margin:0}}>Cuidamos la salud financiera de su empresa</h1>
-            <p style={{maxWidth:720,marginTop:12}}>Más de 23 años brindando confianza, transparencia y soluciones contables innovadoras.</p>
+            <p style={{maxWidth:720,marginTop:12}}>Tu aliado en revisoría fiscal, auditoría y asesoría financiera. Más de 23 años de experiencia al servicio de empresas en Bogotá y Colombia.</p>
             <p style={{marginTop:20}}><a className="btn-primary" href="#contacto">Contáctenos</a></p>
           </div>
         </section>
 
         <section id="quienes" className="container" style={{padding:'48px 0',textAlign:'left'}}>
           <h2>Quiénes somos</h2>
-          <p>Somos un equipo multidisciplinario con amplia experiencia en revisoría fiscal, auditorías, contabilidad, impuestos y asesoría financiera y administrativa. Nos destacamos por nuestra confidencialidad, formación continua y compromiso con los intereses de nuestros clientes.</p>
+          <p><strong>GBC Auditores</strong> es un equipo de profesionales especializados en la salud empresarial. Con más de 23 años de constitución y más de 40 años de experiencia combinada, ofrecemos servicios integrales en revisoría fiscal, auditoría, contabilidad, costos, impuestos y asesoría financiera y administrativa.</p>
+          <p>Nuestro trabajo se rige por la confidencialidad, la formación continua y el compromiso con los intereses institucionales de nuestros clientes.</p>
         </section>
 
         <section id="servicios" className="container" style={{padding:'0 0 48px 0'}}>
           <h2>Servicios</h2>
           <div className="services">
-            <div className="card"><h3>Revisoría Fiscal Integral</h3><p>Auditoría financiera, control interno, gestión y cumplimiento.</p></div>
-            <div className="card"><h3>Área Tributaria</h3><p>Planificación tributaria y trámites ante la administración.</p></div>
-            <div className="card"><h3>Área de Auditoría</h3><p>Auditorías internas y externas por ciclos.</p></div>
-            <div className="card"><h3>Área de Costos</h3><p>Implementación y dirección de sistemas de costos.</p></div>
-            <div className="card"><h3>Área Contable</h3><p>Registro y control contable, en sitio o remoto.</p></div>
-            <div className="card"><h3>Asesoría Financiera y Administrativa</h3><p>Diagnóstico, diseño de procedimientos y capacitación.</p></div>
+            <div className="card"><h3>Revisoría Fiscal Integral</h3><p>Auditoría financiera, control interno, gestión y cumplimiento normativo.</p></div>
+            <div className="card"><h3>Área Tributaria</h3><p>Planeación tributaria, trámites y asesoría en requerimientos de la administración.</p></div>
+            <div className="card"><h3>Área de Auditoría</h3><p>Auditorías internas y externas aplicando métodos por ciclos y análisis de riesgos.</p></div>
+            <div className="card"><h3>Área de Costos</h3><p>Implementación y dirección de sistemas de costos, informes y controles.</p></div>
+            <div className="card"><h3>Área Contable</h3><p>Servicios contables en sitio o remotos, con información oportuna para la toma de decisiones.</p></div>
+            <div className="card"><h3>Asesoría Financiera y Administrativa</h3><p>Diagnóstico financiero, diseño de procedimientos y capacitación del personal.</p></div>
           </div>
         </section>
 
         <section id="experiencia" className="container" style={{padding:'48px 0',textAlign:'left'}}>
           <h2>Experiencia</h2>
-          <p>Hemos servido a empresas en construcción, educación, comercio y servicios. Contacte para más referencias.</p>
+          <p>Hemos trabajado con empresas de diversos sectores: construcción, educación, comercio y servicios. Nuestro equipo aporta experiencia en empresas nacionales y multinacionales.</p>
         </section>
 
         <section id="clientes" className="container" style={{padding:'48px 0'}}>
           <h2>Nuestros Clientes</h2>
-          <p>Ejemplo: A Y S Constructores Ltda, Grupo Anses, Colegios, SFILER S.A, Pécora Ltda.</p>
+          <p>Algunos clientes: A Y S Constructores Ltda, Grupo Anses, Colegio Colombo Americano, SFILER S.A, Pécora Ltda.</p>
         </section>
 
         <section id="equipo" className="container" style={{padding:'48px 0'}}>
           <h2>Equipo</h2>
-          <p>Dirección por profesionales con más de 40 años de experiencia.</p>
+          <p>Dirección: William Néstor Bolívar G. — Gerente General; Blanca Aurora Contreras P. — Gerente Comercial. Profesionalismo y experiencia al servicio de su empresa.</p>
         </section>
 
         <section id="certificaciones" className="container" style={{padding:'48px 0'}}>
           <h2>Certificaciones</h2>
-          <p>Cumplimos con los más altos estándares de calidad profesional y ética.</p>
+          <p>Cumplimos con estándares de calidad profesional y ética. Contáctenos para conocer certificaciones específicas y referencias.</p>
         </section>
 
         <section id="blog" className="container" style={{padding:'48px 0'}}>
           <h2>Blog</h2>
-          <p>Próximamente: artículos sobre auditoría, impuestos y finanzas.</p>
+          <p>Próximamente publicaremos artículos sobre auditoría, impuestos y gestión financiera.</p>
         </section>
 
         <section id="contacto" className="contact-section">
-          <div className="container">
+          <div className="container" style={{maxWidth:720}}>
             <h2>Contáctenos</h2>
             <p>Tel: 4831158 Bogotá / Cel: 313-3487537</p>
-            <p>Email: gbcl.sas@gmail.com</p>
+            <p>Email: gbcl.comercial.sas@gmail.com</p>
+
+            <form action="REPLACE_FORM_ENDPOINT" method="POST" style={{marginTop:20,textAlign:'left'}}>
+              <input className="form-input" name="name" placeholder="Nombre" required />
+              <input className="form-input" name="email" type="email" placeholder="Correo electrónico" required />
+              <input className="form-input" name="company" placeholder="Empresa (opcional)" />
+              <textarea className="form-input" name="message" placeholder="Mensaje" rows="5" required></textarea>
+              <button className="btn-primary" type="submit">Enviar mensaje</button>
+            </form>
+
+            <p style={{marginTop:12,fontSize:13}}>También puede escribirnos por WhatsApp: <a href="https://wa.me/573133487537" style={{color:'#fff',fontWeight:700}}>313-3487537</a></p>
           </div>
         </section>
       </main>
+
+      <footer>
+        <div className="container" style={{display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap'}}>
+          <div>
+            <strong>GBC Auditores</strong><br/>
+            Bogotá, Colombia — William Néstor Bolívar G.<br/>
+            © GBC Auditores 2025. Todos los derechos reservados.
+          </div>
+          <div style={{textAlign:'right'}}>
+            <div>Tel: 4831158 | Cel: 313-3487537</div>
+            <div style={{marginTop:6}}>Email: gbcl.comercial.sas@gmail.com</div>
+          </div>
+        </div>
+      </footer>
 
       <a className="whatsapp" href="https://wa.me/573133487537" target="_blank" rel="noreferrer">WhatsApp</a>
     </>
