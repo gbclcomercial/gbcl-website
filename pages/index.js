@@ -1,5 +1,6 @@
 
 import Head from 'next/head'
+import BlogSection from '../components/BlogSection';
 export default function Home(){
   return (
     <>
@@ -74,9 +75,7 @@ export default function Home(){
           <p>Cumplimos con estándares de calidad profesional y ética. Contáctenos para conocer certificaciones específicas y referencias.</p>
         </section>
 
-        <section id="blog">
-        <h2>Blog</h2>
-         <BlogSection />
+        <BlogSection />
         </section>
 
         <section id="contacto" className="contact-section">
