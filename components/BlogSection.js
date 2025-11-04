@@ -16,15 +16,11 @@ export default function BlogSection(){
         <h2 className="text-3xl font-bold text-blue-900 mb-4">Boletines Informativos GBCL Auditores</h2>
         <p className="text-gray-600 mb-8 max-w-3xl">En esta sección encontrará nuestros boletines informativos anuales con novedades contables, tributarias y de auditoría, elaborados por el equipo de GBCL Auditores.</p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {boletines.map(b => (
             <article key={b.year} className="group">
               <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-all duration-300 group-hover:scale-105">
-           <img
-  src={b.img}
-  alt={b.title}
-  className="w-24 h-32 object-cover rounded-lg border-2 border-[#d4af37] mx-auto shadow-lg"
-/>
+           <img src={b.img} alt={b.title} className="w-24 h-32 object-cover rounded-lg border-2 border-[#d4af37] mx-auto shadow-lg" />
 
               </div>
               <div className="mt-4 flex items-center justify-between">
