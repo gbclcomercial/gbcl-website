@@ -76,7 +76,11 @@ export default function Home(){
 
         <section id="blog" className="container" style={{padding:'48px 0'}}>
           <h2>Blog</h2>
-          <p>Próximamente publicaremos artículos sobre auditoría, impuestos y gestión financiera.</p>
+          import BlogSection from '../components/BlogSection';
+
+...
+
+<BlogSection />
         </section>
 
         <section id="contacto" className="contact-section">
