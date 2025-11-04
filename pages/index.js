@@ -5,7 +5,7 @@ export default function Home(){
     <>
       <Head>
         <title>GBCL Auditores - Revisoría Fiscal y Auditoría</title>
-        <meta name="description" content="GBC Auditores - Revisoría Fiscal, auditorías, contabilidad y asesoría financiera en Bogotá, Colombia." />
+        <meta name="description" content="GBCL Auditores - Revisoría Fiscal, auditorías, contabilidad y asesoría financiera en Bogotá, Colombia." />
       </Head>
 
       <header className="nav">
