@@ -1,12 +1,12 @@
 import Link from 'next/link'
 
 const boletines = [
-  { year: 2020, title: 'Boletín Informativo GBC Auditores – Enero 2020', file: '/blog/No 25 Definitivo enero 2020.pdf', img: '/blog/boletin_2020.png' },
-  { year: 2021, title: 'Boletín Informativo GBC Auditores – Enero 2021', file: '/blog/No 26 Definitivo enero 2021.pdf', img: '/blog/boletin_2021.png' },
-  { year: 2022, title: 'Boletín Informativo GBC Auditores – Enero 2022', file: '/blog/No 27 Definitivo enero 2022.pdf', img: '/blog/boletin_2022.png' },
-  { year: 2023, title: 'Boletín Informativo GBC Auditores – Enero 2023', file: '/blog/No 28 Definitivo enero 2023.docx.pdf', img: '/blog/boletin_2023.png' },
-  { year: 2024, title: 'Boletín Informativo GBC Auditores – Enero 2024', file: '/blog/No 29 Definitivo enero 2024.docx.pdf', img: '/blog/boletin_2024.png' },
-  { year: 2025, title: 'Boletín Informativo GBC Auditores – Enero 2025', file: '/blog/No 30 Definitivo enero 2025.pdf', img: '/blog/boletin_2025.png' },
+  { year: 2020, title: 'Boletín Informativo GBCL Auditores – Enero 2020', file: '/blog/No 25 Definitivo enero 2020.pdf', img: '/blog/boletin_2020.png' },
+  { year: 2021, title: 'Boletín Informativo GBCL Auditores – Enero 2021', file: '/blog/No 26 Definitivo enero 2021.pdf', img: '/blog/boletin_2021.png' },
+  { year: 2022, title: 'Boletín Informativo GBCL Auditores – Enero 2022', file: '/blog/No 27 Definitivo enero 2022.pdf', img: '/blog/boletin_2022.png' },
+  { year: 2023, title: 'Boletín Informativo GBCL Auditores – Enero 2023', file: '/blog/No 28 Definitivo enero 2023.docx.pdf', img: '/blog/boletin_2023.png' },
+  { year: 2024, title: 'Boletín Informativo GBCL Auditores – Enero 2024', file: '/blog/No 29 Definitivo enero 2024.docx.pdf', img: '/blog/boletin_2024.png' },
+  { year: 2025, title: 'Boletín Informativo GBCL Auditores – Enero 2025', file: '/blog/No 30 Definitivo enero 2025.pdf', img: '/blog/boletin_2025.png' },
 ]
 
 export default function BlogSection(){
@@ -20,7 +20,7 @@ export default function BlogSection(){
           {boletines.map(b => (
             <article key={b.year} className="group">
               <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-all duration-300 group-hover:scale-105">
-           <img src={b.img} alt={b.title} className="w-24 h-32 object-cover rounded-lg border-2 border-[#d4af37] mx-auto shadow-lg" />
+           <img src={b.img} alt={b.title} className="object-cover rounded-lg border-2 border-[#d4af37] mx-auto shadow-lg" style={{ width: '113px', height: '151px' }} />
 
               </div>
               <div className="mt-4 flex items-center justify-between">
