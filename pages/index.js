@@ -56,7 +56,7 @@ export default function Home(){
 
         <section id="experiencia" className="container" style={{padding:'48px 0',textAlign:'left'}}>
           <h2>Experiencia</h2>
-          <p>Hemos trabajado con empresas de diversos sectores: construcción, educación, comercio y servicios. Nuestro equipo aporta experiencia en empresas nacionales y multinacionales.</p>
+          <p>Hemos trabajado con empresas de diversos sectores: construcción, educación, comercio y servicios. Nuestro equipo aporta experiencia en empresas nacionales.</p>
         </section>
 
         <section id="clientes" className="container" style={{padding:'48px 0'}}>
