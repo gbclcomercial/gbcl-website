@@ -4,7 +4,7 @@ export default function Home(){
   return (
     <>
       <Head>
-        <title>GBC Auditores - Revisoría Fiscal y Auditoría</title>
+        <title>GBCL Auditores - Revisoría Fiscal y Auditoría</title>
         <meta name="description" content="GBC Auditores - Revisoría Fiscal, auditorías, contabilidad y asesoría financiera en Bogotá, Colombia." />
       </Head>
 
@@ -45,7 +45,7 @@ export default function Home(){
         <section id="servicios" className="container" style={{padding:'0 0 48px 0'}}>
           <h2>Servicios</h2>
           <div className="services">
-            <div className="card"><h3>Revisoría Fiscal Integral</h3><p>Auditoría financiera, control interno, gestión y cumplimiento normativo.</p></div>
+            <div className="card"><h3>Revisoría Fiscal Integral</h3><p>Revisoria Fiscal eficaz, independiente y objetiva, control interno, gestión y cumplimiento normativo.</p></div>
             <div className="card"><h3>Área Tributaria</h3><p>Planeación tributaria, trámites y asesoría en requerimientos de la administración.</p></div>
             <div className="card"><h3>Área de Auditoría</h3><p>Auditorías internas y externas aplicando métodos por ciclos y análisis de riesgos.</p></div>
             <div className="card"><h3>Área de Costos</h3><p>Implementación y dirección de sistemas de costos, informes y controles.</p></div>
