@@ -75,9 +75,9 @@ export default function Home(){
         </section>
 
         <section id="blog">
-  <h2>Blog</h2>
-  <p>Próximamente publicaremos artículos...</p>
-</section>
+        <h2>Blog</h2>
+         <BlogSection />
+        </section>
 
         <section id="contacto" className="contact-section">
           <div className="container" style={{maxWidth:720}}>
