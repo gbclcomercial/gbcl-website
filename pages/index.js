@@ -76,7 +76,6 @@ export default function Home(){
         </section>
 
         <BlogSection />
-        </section>
 
         <section id="contacto" className="contact-section">
           <div className="container" style={{maxWidth:720}}>
