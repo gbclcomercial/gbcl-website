@@ -20,12 +20,11 @@ export default function BlogSection(){
           {boletines.map(b => (
             <article key={b.year} className="group">
               <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-all duration-300 group-hover:scale-105">
-              <img
+           <img
   src={b.img}
   alt={b.title}
-  className="w-32 h-40 object-cover rounded-lg mx-auto shadow-md"
+  className="w-24 h-32 object-cover rounded-lg border-2 border-[#d4af37] mx-auto shadow-lg"
 />
-
 
               </div>
               <div className="mt-4 flex items-center justify-between">
