@@ -73,7 +73,6 @@ export default function Home(){
         <section id="certificaciones" className="container py-16">
   <h2 className="text-3xl font-bold text-blue-900 mb-6">Certificaciones y Actualizaciones Profesionales</h2>
   <ul className="space-y-2 text-gray-700 text-lg">
-    <li>• Certificación Colpensiones – 2017</li>
     <li>• Taller Renta 2017 – Reforma Tributaria</li>
     <li>• Certificado Asistencia Impuesto Diferido – 2017</li>
     <li>• Certificado Conciliación Fiscal – 2018</li>
