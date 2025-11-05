@@ -70,10 +70,21 @@ export default function Home(){
           <p>Dirección: William Néstor Bolívar G. — Gerente General; Margarita Triana A. — Gerente Comercial. Profesionalismo y experiencia al servicio de su empresa.</p>
         </section>
 
-        <section id="certificaciones" className="container" style={{padding:'48px 0'}}>
-          <h2>Certificaciones</h2>
-          <p>Cumplimos con estándares de calidad profesional y ética. Contáctenos para conocer certificaciones específicas y referencias.</p>
-        </section>
+        <section id="certificaciones" className="container py-16">
+  <h2 className="text-3xl font-bold text-blue-900 mb-6">Certificaciones y Actualizaciones Profesionales</h2>
+  <ul className="space-y-2 text-gray-700 text-lg">
+    <li>• Certificación Colpensiones – 2017</li>
+    <li>• Taller Renta 2017 – Reforma Tributaria</li>
+    <li>• Certificado Asistencia Impuesto Diferido – 2017</li>
+    <li>• Certificado Conciliación Fiscal – 2018</li>
+    <li>• Certificado Planeación Fiscal – 2018</li>
+    <li>• Certificado Renta Personas Naturales – 2018</li>
+    <li>• Certificado Actualización Tributaria – 2019</li>
+    <li>• Certificado Renta Personas Jurídicas – 2019</li>
+    <li>• Certificado Siigo Medios Magnéticos – 2016</li>
+    <li>• Certificado Siigo NIIF – 2016</li>
+  </ul>
+</section>
 
         <BlogSection />
 
