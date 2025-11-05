@@ -39,7 +39,7 @@ export default function Home(){
 
         <section id="quienes" className="container" style={{padding:'48px 0',textAlign:'left'}}>
           <h2>Quiénes somos</h2>
-          <p><strong>GBCL Auditores</strong> es un equipo de profesionales especializados en la salud empresarial. Con más de 23 años de constitución y más de 40 años de experiencia combinada, ofrecemos servicios integrales en revisoría fiscal, auditoría, contabilidad, costos, impuestos y asesoría financiera y administrativa.</p>
+          <p><strong>GBCL Auditores S.A.S</strong> es un equipo de profesionales especializados en la salud empresarial. Con más de 23 años de constitución y más de 40 años de experiencia combinada, ofrecemos servicios integrales en revisoría fiscal, auditoría, contabilidad, costos, impuestos y asesoría financiera y administrativa.</p>
           <p>Nuestro trabajo se rige por la confidencialidad, la formación continua y el compromiso con los intereses institucionales de nuestros clientes.</p>
         </section>
 
