@@ -90,8 +90,8 @@ export default function Home(){
         <section id="contacto" className="contact-section">
           <div className="container" style={{maxWidth:720}}>
             <h2>Contáctenos</h2>
-            <p> Cel: 313-3487537 - 3112656736</p>
-            <p>Email:gbcl.sas@gmail.com - gbcl.comercial.sas@gmail.com</p>
+            <p> Cel: 313-3487537</p>
+            <p>Email:gbcl.sas@gmail.com - gbcl.comercial1@gmail.com</p>
 
             <form action="REPLACE_FORM_ENDPOINT" method="POST" style={{marginTop:20,textAlign:'left'}}>
               <input className="form-input" name="name" placeholder="Nombre" required />
@@ -114,8 +114,8 @@ export default function Home(){
             © GBCL Auditores 2025. Todos los derechos reservados.
           </div>
           <div style={{textAlign:'right'}}>
-            <div> Cel: 313-3487537 - 3112656736</div>
-            <div style={{marginTop:6}}>Email:gbcl.sas@gmail.com -gbcl.comercial.sas@gmail.com</div>
+            <div> Cel: 313-3487537</div>
+            <div style={{marginTop:6}}>Email:gbcl.sas@gmail.com -gbcl.comercial1@gmail.com</div>
           </div>
         </div>
       </footer>
