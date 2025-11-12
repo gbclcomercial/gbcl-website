@@ -39,7 +39,7 @@ export default function BlogSection(){
         </div>
 
         <div className="mt-10 text-center">
-          <p className="text-gray-700">Para recibir nuestros boletines directamente en su correo, contáctenos en <strong>gbcl.comercial.sas@gmail.com</strong> o escríbanos por WhatsApp al <strong>+57 313 348 7537</strong>.</p>
+          <p className="text-gray-700">Para recibir nuestros boletines directamente en su correo, contáctenos en <strong>gbcl.comercial1@gmail.com</strong> o escríbanos por WhatsApp al <strong>+57 313 348 7537</strong>.</p>
         </div>
       </div>
     </section>
